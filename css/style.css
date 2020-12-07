@@ -327,6 +327,7 @@ a:hover {
   border: 0;
   padding: 0;
   text-align: left;
+
 }
 
 .innerlist {
@@ -339,9 +340,19 @@ a:hover {
 }
 .details {
   text-align: justify;
+    color: #040404;
+    font-size: 16px;
+    list-style: none;
+    font-weight: normal;
+    margin-right: 300px;
 
 }
 
+.course-list {
+    color:#505D69;
+    list-style:none;
+    font-weight: bold;
+}
 
 .title {
   font-size:26px;
