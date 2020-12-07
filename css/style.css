@@ -12,7 +12,7 @@
 
 .icon{
 	opacity:0.7;
-	height:75px;
+	height:100px;
 	filter:alpha(opacity=30);
 }
 .icon:hover{
@@ -58,12 +58,57 @@ header.topbar{
     z-index: 1
 }
 
+header.topbar img {
+    float: left;
+    padding: 10px 0;
+}
+header.topbar h1 {
+    float: left;
+    margin-bottom: 400px;
+    margin-left:25px;
+    margin-top:10px;
+    position:relative;
+}
+header.topbar ul {
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
 
 header.topbar ul li {
-     display: inline;
-     padding-right: 20px;
-     padding-left: 20px;
+     display: inline-block;
+     margin-left: 70px;
+     padding-top:10px;
+
+     position: relative;
+
      }
+
+header.topbar a {
+    color: #040404;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header.topbar a:hover {
+    color: #07335F;
+}
+
+header.topbar a::before {
+    content:"";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #07335F;
+
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+header.topbar a:hover::before {
+    width:100%;
+}
 
 header li div.red {
      color: #d27979;
@@ -74,6 +119,7 @@ header li div.yellowgreen {
 header li div.teal {
      color: #79d29d;
      }
+
 header li div.blue {
      color: #799dd2;
      }
@@ -142,7 +188,15 @@ header li div.purple {
   height: 100px;
 }
 
-#iconscontainer ul li { display: inline; }
+#iconscontainer p {
+    display:inline;
+    padding-left:10px;
+    margin-bottom:100px;
+    position:relative;
+
+}
+
+#iconscontainer ul li {display: inline}
 #iconscontainer ul li img {
   max-height: 100%;
   max-width: 100%;
@@ -184,7 +238,7 @@ header li div.purple {
 }
 
 #research-text{
-  padding-top: 50px;
+  padding-top: 150px;
   padding-bottom: 20px;
   width: 70%;
   margin-right: auto;
@@ -267,4 +321,22 @@ a:hover {
     color: #799dd2;
     text-decoration: none;
 }
+
+
+.title {
+  font-size:26px;
+  padding-left:400px;
+  text-align: justify;
+  color:#505D69;
+  font-weight: bold;
+}
+.date {
+  font-size:18px;
+  text-align: right;
+  color:#505D69;
+  border: 0px;
+  min-width: 100px;
+  padding-left: 40px;
+}
+
 
