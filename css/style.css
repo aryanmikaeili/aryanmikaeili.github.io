@@ -325,7 +325,7 @@ a:hover {
 
 .title {
   font-size:26px;
-  padding-left:400px;
+  padding-left: auto 400px;
   text-align: justify;
   color:#505D69;
   font-weight: bold;
