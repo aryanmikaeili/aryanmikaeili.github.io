@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kai Y. Xiao</title>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+  <header id = "header" class = "topbar">
+    <ul>
+    <li class="navbar-left"><a href=#home>kai xiao</a></li>
+    <li class="navbar-right"><a href=#hobbies>hobbies</a></li>
+    <li class="navbar-right"><a href=#research>research</a></li>
+    <li class="navbar-right"><a href=#bio>bio</a></li>
+    </ul>
+  </header>
+  <div id = "home">
+  </div>
+  <div id = "first-section">
+    <div id = "iconscontainer">
+      <ul>
+        <li><a target="_blank" href="https://scholar.google.com/citations?user=xblGvQgAAAAJ&hl=en"><img src="img/google-scholar.png" class="icon"/></a></li>
+        <li><a target="_blank" href="http://github.com/kaixiao/"><img src="img/github.svg" class="icon"/></a></li>
+        <li><a target="_blank" href="files/resume.pdf"><img src="img/resume.png" class="icon"/></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/kaixiao"><img src="img/linkedin.png" class="icon"/></a></li>
+      </ul>
+      <center>kaix (at) mit (dot) edu</center>
+    </div>
+
+    <div id="bio">
+    <h1> Bio </h1>
+    <p>
+      <img src="img/KaiXiao.jpg" width="40%" style="margin-left: 30px; float:right; margin-top: 0px; margin-bottom: 10px;" />
+      I’m currently a third-year PhD student at MIT CSAIL, fortunate to be advised by <a href=https://people.csail.mit.edu/madry/>Aleksander Madry</a>. I received my <a href="game.html">B.S.</a> from MIT in Mathematics and Computer Science and completed my M.Eng Thesis at MIT CSAIL on <a href="http://erikdemaine.org/theses/kxiaoM.pdf">Cookie Clicker</a> under the guidance of <a href="http://erikdemaine.org/">Erik Demaine</a>.
+      <br />
+      <br />
+      My current research interests are primarily in Robust Machine Learning. I also enjoy thinking about algorithms and online games.
+      <br />
+      <br />
+      Previously, I interned at <a href="https://www.deepmind.com/">Deepmind</a>, <a href="https://www.citadel.com/">Citadel</a>, <a href="http://www.deshaw.com/">DE Shaw</a>, <a href="https://a9.com/">A9</a>, and <a href="https://www.janestreet.com/">Jane Street</a>. I was the corporate relations director for <a href="https://techx.io/">MIT TechX</a> in 2014. I also studied abroad at the University of Oxford in Spring 2016 - check out <a href="https://kaikaixiao.wordpress.com/">my blog</a> about my experiences there! </div>
+    </p>
+    </div>
+  </div>
+  <div id = "research">
+    <div id = "research-text">
+    <h1> Research </h1>
+    In robust machine learning, I am currently interested in using theoretical insights to help develop more robust and secure machine learning models. If machine learning models are to be deployed in the real world, we want these models to be reliable; however, the existence of adversarial examples - impercetibly modified inputs that fool state-of-the-art classifiers - raises concerns about the brittleness of such models. A major focus of my research has been on effective methods of formally verifying the robustness of these models. 
+    <br />
+    <br />
+    I am also interested in understanding reinforcement learning and its potential applications, both to gaming and beyond.
+    <br />
+    <br />
+    In the past, I have analyzed various games from a more algorithmic point of view, including through the lenses of computational complexity, approximation algorithms, and online algorithms.
+    <br />
+    <br />
+    <!--<h2> Publications </h2>
+    <br />-->
+    <!--<h2> Preprints </h2>-->
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tbody>
+        <tr id='mbrladv'>
+          <td width="30%">
+            <img src="img/mbrladv-cover-img.png" width="100%">
+          </td>
+          <td valign="top" width="70%">
+            <p>
+              <a href="https://openreview.net/forum?id=SylL0krYPS">
+                Toward Evaluating Robustness of Deep Reinforcement Learning with Continuous Control
+              </a>
+              <br>
+               <a href=https://www.linkedin.com/in/tsui-wei-lily-weng-b27a937b/>Tsui-Wei Weng</a>, <a href=https://www.linkedin.com/in/krishnamurthy-dvijotham-09820146/>Krisnamurthy (Dj) Dvijotham</a>, <a href=https://www.linkedin.com/in/jonathan-uesato-16677788/>Jonathan Uesato</a>, <strong>Kai Xiao</strong>, <a href=https://www.linkedin.com/in/sgowal/>Sven Gowal</a>, <a href=https://www.linkedin.com/in/robert-stanforth-b2a68761/>Robert Stanforth</a>, <a href=https://www.linkedin.com/in/pushmeet-kohli-4838994/>Pushmeet Kohli</a>
+              <br>
+              <em>Proceedings of the International Conference on Learning Representations (ICLR)</em>, 2020
+              <br>
+            </p>
+            <p>
+              We study the problem of continuous control agents in deep RL with adversarial attacks and propose the first two-step attack algorithm based on learned model dynamics. Extensive experiments on various MuJoCo domains (Cartpole, Fish, Walker, Humanoid) demonstrate that our proposed framework is much more effective and efficient than model-free based attacks baselines in degrading agent performance and in driving agents to unsafe states.
+            </p>
+          </td>
+        </tr>
+        <tr id='randsmooth'>
+          <td width="30%">
+            <img src="img/randsmooth-cover-img.png" width="100%">
+          </td>
+          <td valign="top" width="70%">
+            <p>
+              <a href="https://openreview.net/forum?id=SJlKrkSFPH">
+                A Framework for Robustness Certification of Smoothed Classifiers using f-divergences
+              </a>
+              <br>
+               <a href=https://www.linkedin.com/in/krishnamurthy-dvijotham-09820146/>Krisnamurthy (Dj) Dvijotham</a>, <a href=http://www.homepages.ucl.ac.uk/~ucabaye/>Jamie Hayes</a>, <a href=https://www.linkedin.com/in/borja-balle-b616751b/>Borja Balle</a>, <a href=https://www.linkedin.com/in/zico-kolter-560382a4/>Zico Kolter</a>, <a href=https://www.linkedin.com/in/chongli-qin-b3b85059/>Chongli Qin</a>, <a href=https://www.linkedin.com/in/andras-gyorgy-a61477125/>Andras Gyorgy</a>, <strong>Kai Xiao</strong>, <a href=https://www.linkedin.com/in/sgowal/>Sven Gowal</a>,  <a href=https://www.linkedin.com/in/pushmeet-kohli-4838994/>Pushmeet Kohli</a>
+              <br>
+              <em>Proceedings of the International Conference on Learning Representations (ICLR)</em>, 2020
+              <br>
+            </p>
+            <p>
+              Past work on randomized smoothing, which can provide provable guarantees on the robustness of models, has focused on restricted classes of smoothing measures or perturbations (like Gaussian or discrete) and has only been able to prove robustness with respect to simple norm bounds. In this paper we introduce a general framework for proving robustness properties of smoothed machine learning models in the black-box setting.
+            </p>
+          </td>
+        </tr>
+        <tr id='ddrmpo'>
+          <td width="30%">
+            <img src="img/ddrmpo-cover-img.png" width="100%">
+          </td>
+          <td valign="top" width="70%">
+            <p>
+              <a href="https://sites.google.com/view/neurips19-safe-robust-workshop">
+                Data-Driven Robust Reinforcement Learning for Continuous Control
+              </a>
+              <br>
+               <a href=https://www.linkedin.com/in/yuanyuan-shi-bb734210a/>Yuanyuan Shi</a>, <strong>Kai Xiao</strong>, <a href=https://www.linkedin.com/in/daniel-mankowitz-96a25a46/>Daniel J. Mankowitz</a>, <a href=https://www.linkedin.com/in/rae-jeong-35291592/>Rae Jeong</a>, <a href=https://www.linkedin.com/in/levinir/>Nir Levine</a>, <a href=https://www.linkedin.com/in/sgowal/>Sven Gowal</a>, <a href=https://www.linkedin.com/in/timothy-mann-09a0531b/>Timothy Mann</a>, <a href=https://www.linkedin.com/in/todd-hester-606b6122/>Todd Hester</a>
+              <br>
+              <em>NeurIPS workshop on Safety and Robustness in Decision Making</em>, 2019
+              <br>
+            </p>
+            <p>
+              We  focus  on  learning  RL  policies  that  are  robust  to perturbations in the environment dynamics, which we refer to as model misspecification. The motivation is the case where we have access to a (possibly inaccurate) simulator and real world data. We propose Data-Driven Robust Maximum a-posteriori Policy Optimization (DDR-MPO), which first learns transition models with datasets collected from different perturbed environments, corresponding to the real world systems, and then uses these models along with the provided simulator to learn a robust policy.
+            </p>
+          </td>
+        </tr>
+        <tr id='advspec'>
+          <td width="30%">
+            <img src="img/advspec-cover-img.png" width="100%">
+          </td>
+          <td valign="top" width="70%">
+            <p>
+              <a href="https://sites.google.com/view/neurips19-safe-robust-workshop">
+                Learning Neural Dynamics Simulators with Adversarial Specification Training
+              </a>
+              <br>
+              <strong>Kai Xiao</strong>, <a href=https://www.linkedin.com/in/sgowal/>Sven Gowal</a>, <a href=https://www.linkedin.com/in/todd-hester-606b6122/>Todd Hester</a>, <a href=https://www.linkedin.com/in/rae-jeong-35291592/>Rae Jeong</a>, <a href=https://www.linkedin.com/in/daniel-mankowitz-96a25a46/>Daniel J. Mankowitz</a>, <a href=https://www.linkedin.com/in/yuanyuan-shi-bb734210a/>Yuanyuan Shi</a>, <a href=https://www.linkedin.com/in/tsui-wei-lily-weng-b27a937b/>Tsui-Wei Weng</a> 
+              <br>
+              <em>NeurIPS workshop on Safety and Robustness in Decision Making</em>, 2019
+              <br>
+            </p>
+            <p>
+              Learning an accurate dynamics simulator is important for effective model-based reinforcement learning (RL). Often, we have prior knowledge about the dynamics models we are trying to learn (e.g., physical laws like axes of symmetry must be respected). We focus on learning dynamics models that incorporate prior knowledge as model specifications (i.e., mathematical invariances that always hold true), and we enforce these specifications via adversarial training. Using specifications improves sample complexity and generalization.
+            </p>
+          </td>
+        </tr>
+        <tr id='rs'>
+          <td width="30%">
+            <img src="img/rs-cover-img.png" width="100%">
+          </td>
+          <td valign="top" width="70%">
+            <p>
+              <a href="https://arxiv.org/abs/1809.03008">
+                Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability
+              </a>
+              <br>
+              <strong>Kai Xiao</strong>, <a href=https://www.linkedin.com/in/vincent-t-14243683/>Vincent Tjeng</a>, <a href=http://web.mit.edu/nshafiul/www/>Nur Muhammad (Mahi) Shafiullah</a>, <a href=https://people.csail.mit.edu/madry/>Aleksander Madry</a>
+              <br>
+              <em>Proceedings of the International Conference on Learning Representations (ICLR)</em>, 2019
+              <br>
+            </p>
+            <p>
+              This paper explores co-designing neural networks to be both robust and easily verifiable. The paper identifies two key properties of neural networks that make it more amenable to verification - weight sparsity and ReLU stability - and describes regularization methods to achieve these goals during training without significantly hurting the neural network's accuracy. These techniques can be used in conjunction with any standard training procedure, and they allows us to train provably robust networks for MNIST and CIFAR-10.
+            </p>
+          </td>
+        </tr>
+        <tr id='milp'>
+          <td width="30%">
+            <img src="img/milp-cover-img.png" width="100%" >
+          </td>
+          <td valign="top" width="70%">
+            <p>
+              <a href="https://arxiv.org/abs/1711.07356">
+                Evaluating Robustness of Neural Networks with Mixed Integer Programming
+              </a>
+              <br>
+              <a href=https://www.linkedin.com/in/vincent-t-14243683/>Vincent Tjeng</a>, <strong>Kai Xiao</strong>, <a href=https://groups.csail.mit.edu/locomotion/russt.html>Russ Tedrake</a>
+              <br>
+              <em>Proceedings of the International Conference on Learning Representations (ICLR)</em>, 2019
+              <br>
+            </p>
+            <p>
+              This paper leverages mixed integer linear programs to verify the robustness of neural networks in a speed that is two to three orders of magnitude quicker than the previous state-of-the-art. The computational speedup is achieved through tight formulations for non-linearities, as well as a novel presolve algorithm that makes full use of all information available. This allows us to verify the robustness of larger convolutional networks, and determine, for the first time, the exact adversarial accuracy of an MNIST classifier to norm-bounded perturbations.
+            </p>
+          </td>
+        </tr>
+        <tr id='cc'>
+          <td width="30%">
+            <img src="img/cc-cover-img.jpg" width="100%">
+          </td>
+          <td valign="top" width="70%">
+            <p>
+              <a href="https://arxiv.org/abs/1808.07540">
+                Cookie Clicker
+              </a>
+              <br>
+              <a href=http://erikdemaine.org/>Erik D. Demaine</a>, <a href=http://www.alg.cei.uec.ac.jp/itohiro/souran/itohiro-e.html>Hiro Ito</a>, <a href=http://www.ulb.ac.be/di/algo/sl/>Stefan Langerman</a>, <a href=https://www.linkedin.com/in/jayson-lynch-b6297ab/>Jayson Lynch</a>, <a href=https://www.researchgate.net/scientific-contributions/2090377629_Mikhail_Rudoy>Mikhail Rudoy</a>, <strong>Kai Xiao</strong>
+              <br>
+              <em>Oral Presentation at JCDCG^3</em>, 2017
+              <br>
+            </p>
+            <p>
+              Cookie Clicker is a popular online incremental game where the goal of the game is to generate as many cookies as possible. In the game you start with an initial cookie generation rate, and you can use cookies as currency to purchase various items that increase your cookie generation rate. In this paper, we analyze strategies for playing Cookie Clicker optimally. While simple to state, the game gives rise to interesting analysis involving ideas from NP-hardness, approximation algorithms, and dynamic programming.
+            </p>
+          </td>
+        </tr>
+        <tr id='mh'>
+          <td width="30%">
+            <img src="img/mh-cover-img.jpg" width="100%">
+          </td>
+          <td valign="top" width="70%">
+            <p>
+              <a href="https://arxiv.org/abs/1501.01720">
+                Online Algorithms Modeled After Mousehunt
+              </a>
+              <br>
+              <a href=https://www.linkedin.com/in/jeffrey-ling-92163879/>Jeffrey Ling</a>, <strong>Kai Xiao</strong>, <a href=https://www.linkedin.com/in/dai-yang-7983b363/>Dai Yang</a>
+              <br>
+            </p>
+            <p>In this paper we study a variety of novel online algorithm problems inspired by the game Mousehunt. We consider a number of basic models that approximate the game, and we provide solutions to these models using Markov Decision Processes, deterministic online algorithms, and randomized online algorithms. We analyze these solutions' performance by deriving results on their competitive ratios.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    </div>
+  </div>
+  <div id = "hobbies">
+    <div id = "hobbies-text">
+    <h1> Hobbies </h1>
+      In my spare time, I enjoy traveling. Some of my favorite cities to visit have been <a href="https://kaikaixiao.wordpress.com/2016/04/26/florence-love-story/">Florence</a>, <a href="https://kaikaixiao.wordpress.com/2016/02/21/copenhagen-and-malmo-who-needs-planning/">Copenhagen</a>, <a href="https://kaikaixiao.wordpress.com/2016/05/13/barcelona-and-madrid-colorful/">Barcelona</a>, and <a href="https://traveldiaristblog.wordpress.com/2017/06/27/kyoto-day-27-628/">Kyoto</a>.
+      <br />
+      <br />
+      <br />
+      I also enjoy dancing, especially hip-hop and K-pop dance. Sometimes I dance in fun cover videos of K-pop groups with my friends from the MIT Asian Dance Team and Eclipse K-pop - <a href="https://www.youtube.com/watch?v=sLnmAJLyA1c">like</a> <a href="https://www.youtube.com/watch?v=0EbTlTUy45w">in</a> <a href="https://www.youtube.com/watch?v=PIGSmlhqBAE">these</a> <a href="https://www.youtube.com/watch?v=jWWpH4k-y3c">five</a> <a href="https://www.youtube.com/watch?v=0Eh9fcjhQ84">videos</a>.
+    </div>
+    <div id = "inspirationalquote"><h2>It's a magical world, Hobbes, ol' buddy... Let's go exploring!</h2></div>
+
+    <div id="copyright">
+      Kai Xiao &#169 2020
+    </div>
+  </div>
+  </body>
+</html>
