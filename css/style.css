@@ -168,7 +168,7 @@ header li div.purple {
     background-size: cover;
     height: 100%;
     overflow: hidden;
-    opacity: .2;
+    opacity: .3;
     content: "";
     z-index: -1;
 
@@ -354,6 +354,12 @@ a:hover {
     list-style:none;
     font-weight: bold;
 }
+
+.paperlist {
+    color:#505D69;
+    font-weight: bold;
+}
+
 
 .title {
   font-size:26px;

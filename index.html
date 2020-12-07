@@ -15,10 +15,15 @@
     <nav>
       <ul>
 
-        <li class="navbar-right"><a href=#home>Home</a></li>
+
+
         <li class="navbar-right"><a href=#hobbies>hobbies</a></li>
-        <li class="navbar-right"><a href=#research>research</a></li>
-        <li class="navbar-right"><a href=#bio>bio</a></li>
+               <li class="navbar-right"><a href=#courses-and-projects>Courses and Projects</a></li>
+          <li class="navbar-right"><a href=#research>Research experience</a></li>
+           <li class="navbar-right"><a href=#bio>About me</a></li>
+
+
+
     </ul>
     </nav>
 
@@ -30,7 +35,7 @@
 
       <ul>
         <li><a target="_blank" href="http://github.com/aryanmikaeili/"><img src="img/github.svg"  class="icon"/></a></li>
-        <li><a target="_blank" href="files/cv_AryanMikaeili2.pdf"><img src="img/resume.png" alt="resume" class="icon"/></a></li>
+        <li><a target="_blank" href="files/cv_AryanMikaeili2.pdf"><img src="img/C2V.png" alt="resume" class="icon"/></a></li>
 
 
       </ul>
@@ -44,11 +49,10 @@
     <div id="bio">
     <h1> About me </h1>
     <p>
-      <img src="img/me2.jpg" width="300" height="300" style="margin-left: 30px; float:right; margin-top: 130px; margin-bottom: 10px; border-radius: 50%;" />
+      <img src="img/aryan.png" width="300" height="300" style="margin-left: 30px; float:right; margin-top: 120px; margin-bottom: 10px; border-radius: 50%;" />
         Hello. My name is Aryan Mikaeili and I am currently a Computer Engineering B. Sc. student at <a href="http://www.en.sharif.edu/">Sharif University of Technology</a>.
       <br />
-      I am a research assistant at the <a href="http://ipl.ce.sharif.edu/">Image processing lab (IPL)</a>, where under supervision of  <a href="http://sharif.ir/~kasaei">Prof. Shohreh Kasaei</a> I work on adversarial attacks on deep 3D point cloud models and geometric interpretability of these models.
-      <br />
+
       I am mainly interested in 3D computer vision, robust deep learning and interpretability of deep networks. But, I am also interested in other topics in computer vision and machine learning such as generative models, human pose estimation, image segmentation and etc.
       <br />
     </p>
@@ -58,7 +62,7 @@
     <div id = "research-text">
       <h1>Research experience</h1>
       <p>
-          <span class="title">Image processing lab (IPL)</span>
+          <span class="title"><a href="http://ipl.ce.sharif.edu/" style="color: #505D69;">Image processing lab (IPL)</a></span>
           <span class="date">June 2020 - Present</span>
           <table class="subtitle"><tr>
             <td class="position">
@@ -76,7 +80,7 @@
   </ul>
       </p>
  <p>
-          <span class="title">Bioinformatics and Computational biology lab (BCB)</span>
+     <span class="title"><a href="http://bcb.ictic.sharif.edu/" style="color: #505D69;">Bioinformatics and Computational biology lab (BCB)</a></span>
           <span class="date">January 2019 - April 2019</span>
           <table class="subtitle"><tr>
             <td class="position">
@@ -91,7 +95,7 @@
   </ul>
       </p>
 
-      <h1>Courses and projects</h1>
+      <h1 id="courses-and-projects">Courses and projects</h1>
       <p>
         <span class="title">Courses</span>
       <p>These are some of the most instructive and enjoyable courses I took in my undergraduate studies.</p>
@@ -142,6 +146,39 @@
       </ul>
       </li>
     </ul>
+
+       <span class="title">Projects and Papers</span>
+      <p>Some of my course projects and papers I have implemented.</p>
+      <ul class="paperlist">
+      <li class="paperlist">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation [<a href="https://github.com/aryanmikaeili/Pointnet">my code</a>][<a href="https://arxiv.org/abs/1612.00593">arxiv</a>]
+      </li>
+      <li class="paperlist">DeepFool: a simple and accurate method to fool deep neural networks [<a href="https://github.com/aryanmikaeili/attacks">my code</a>][<a href="https://arxiv.org/abs/1511.04599">arxiv</a>]
+      </li>
+        <li class="paperlist">Towards Evaluating the Robustness of Neural Networks[<a href="https://github.com/aryanmikaeili/attacks">my code</a>][<a href="https://arxiv.org/abs/1608.04644">arxiv</a>]
+      </li>
+      <li class="paperlist">Axiomatic Attribution for Deep Networks [<a href="https://github.com/aryanmikaeili/Integrated-Gradients">my code</a>][<a href="https://arxiv.org/abs/1703.01365">arxiv</a>]
+
+      </li>
+        <li class="paperlist">Deep Residual Learning for Image Recognition [<a href="https://github.com/aryanmikaeili/ML_BIO/tree/master/HW5_resnet_mlp">my code</a>][<a href="https://arxiv.org/abs/1512.03385">arxiv</a>]
+
+      </li>
+          <li class="paperlist">Auto-Encoding Variational Bayes [<a href="https://github.com/aryanmikaeili/ML_BIO/tree/master/HW6_vae_rnn">my code</a>][<a href="https://arxiv.org/abs/1512.03385">arxiv</a>]
+
+      </li>
+      <li class="paperlist">Surface Reconstruction from Unorganized Points (Just the normal estimator) [<a href="https://github.com/aryanmikaeili/ML_BIO/tree/master/HW6_vae_rnn">my code</a>][<a href="https://arxiv.org/abs/1512.03385">arxiv</a>]
+
+      </li>
+       <li class="paperlist">The machine learning for bioinformatics course project [<a href="https://github.com/aryanmikaeili/ML_BIO/tree/master/project_phase2_deepdta%2Brnn">my code</a>]
+             <ul style="list-style: none;">
+          <li><div class="details">
+              This project was about drug-target binding prediction. One of the methods used in solving this problem is the <a href="https://arxiv.org/abs/1801.10193">DeepDTA</a>a model. which extracts features from drug and target molecular structures using a two-branch CNN network. However, this model doesn't take the sequential nature of target amino-acid structures into account. In this project, in addition to implementing some of the previous methods in the drug-target binding problem, I designed a model which uses an RNN network to extract sequential features of amino-acids. Eventually, These features, are augmented with the features extracted from the two-branch CNN network and used to predict the binding value of a drug-target pair.
+          </div>
+          </li>
+      </ul>
+      </li>
+
+
+    </ul>
       </p>
 
     <!--<h2> Publications </h2>
@@ -156,11 +193,11 @@
   <div id = "hobbies">
     <div id = "hobbies-text">
     <h1> Activities and Hobbies </h1>
-      I'm a classical pianist. I have played the piano for almost 13 years. Over the years I have played a vast repertoire from J.S Bach to D.D Shostakovich. in 2018 I was among the finalsts of the National Javan music festival and National Barbad music festival. Also I was ranked first and second in the Competition for Tehran's cultural centers in 2010 an 2009 respectively.
+      I'm a classical pianist. I have played the piano for almost 13 years. Over the years I have played a vast repertoire from J.S Bach to D.D Shostakovich. In 2018 I was among the finalsts of the National Javan music festival and National Barbad music festival. Also I was ranked first and second in the Competition for Tehran's cultural centers in 2010 an 2009 respectively.
       Additionaly I have been fortunate to benefit from masterclasses of celebrated pianists such as Dilbar Hakimova from Moscow conservatory and Tamara Dolidze from Tbilisi state conservatory. I'm currently practicing <a href="https://www.youtube.com/watch?v=ghTitIMtTCM">Italian concerto in F major</a> by Bach.
       <br />
       <br />
-           I also enjoy playing chess and soccer.
+           I also enjoy playing chess and soccer. If you are up for a game of chess, send me a challenge in <a href="chess.com">chess.com</a>. my account is AryanMikaeili:)
       <br />
        <br />
        <br />
