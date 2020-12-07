@@ -170,8 +170,7 @@ header li div.purple {
     opacity: .2;
     content: "";
     z-index: -1;
-    -webkit-animation: myfirst 5s ;
-    animation: myfirst 5s ;
+
 }
 
 #iconscontainer
@@ -320,6 +319,27 @@ a:visited {
 a:hover {
     color: #799dd2;
     text-decoration: none;
+}
+.subtitle {
+  margin-top: -20px;
+}
+.position {
+  border: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.innerlist {
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 16px;
+  text-align: right;
+
+}
+.details {
+  text-align: justify;
+
 }
 
 
