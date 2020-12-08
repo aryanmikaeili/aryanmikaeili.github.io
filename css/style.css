@@ -341,12 +341,15 @@ a:hover {
 
 }
 .details {
-  text-align: justify;
     color: #040404;
     font-size: 16px;
     list-style: none;
     font-weight: normal;
-    margin-right: 10%;
+
+      text-align: left
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -354,6 +357,7 @@ a:hover {
     color:#505D69;
     list-style:none;
     font-weight: bold;
+
 }
 
 .paperlist {
