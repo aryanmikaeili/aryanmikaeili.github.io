@@ -377,6 +377,14 @@ a:hover {
   padding-left: 40px;
 }
 
+.teaching {
+  text-align: justify;
+    color:#505D69;
+    font-size: 16px;
+    list-style: none;
+    font-weight: bold;
+    margin-right: 10%;
+}
 
 .title:hover {
      color: #799dd2;
