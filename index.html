@@ -1,250 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
-    <title>Aryan Mikaeili</title>
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
-    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">-->
-    <!-- <link rel="icon" href="img/favicon.ico" type="image/x-icon"> -->
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Aryan's homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
-  <header id = "header" class = "topbar">
-    <h1>Aryan Mikaeili</h1>
-    <nav>
-      <ul>
+    <div class="wrapper">
+      <header>
+        <div style="text-align: center">
+          <h1>Aryan Mikaeili</h1>
+          <img src="../img/Aryan2.png" width="250" height="250" style="margin-bottom: 10%" />
+          <div id="icon-container">
+            <a href="mailto:aryan_mikaeili@sfu.ca", title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="path-to-your-cv.pdf", title="Download CV"><i class="fas fa-file-pdf"></i></a>
+            <a href="https://github.com/aryanmikaeili/", title="Github"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/AryanMikaeili", title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://scholar.google.com/citations?user=N_eySssAAAAJ&hl=en", title="Google scholar"><i class="fas fa-graduation-cap"></i></a>
+            <!-- Add as many icons as you like -->
+          </div>
+          <p style="margin-top: 5%">CV last update: December 8th 2020</p>
+        </div>
+        <footer>
+          <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        </footer>
+      </header>
+      <section>
 
+        <h1>About me</h1>
+          <p style="font-size: 18px;">
+              I am a Computing science second-year Master's student at Simon Fraser University (SFU) and a member of <a href="https://gruvi.cs.sfu.ca/">GrUVi lab</a>,
+            where I am fortunate to be supervised by Prof. <a href="https://www.sfu.ca/~amahdavi/">Ali Mahdavi-Amiri</a>.  Prior to this, I completed my undergraduate degree in Computer Engineering from Sharif University of Technology.
+          </p>
+          <p style="font-size: 18px;">
+              My research primarily revolves around
+              computer vision and graphics, with a recent emphasis on neural fields and 3D generative modeling.
+          </p>
+        <br>
+        <h1>Publications</h1>
 
+        <div class="publication-item">
+          <div class="image-container">
+            <a href="https://sked-paper.github.io/">
+              <img src="../img/sked_teaser.jpg" alt="Sked" class="publication-image" />
+            </a>
+          </div>
+          <div class="publication-content">
+            <p><strong>SKED: Sketch-guided Text-based 3D Editing</strong></p>
+            <p>ICCV, 2023</p>
+            <p><strong>Aryan Mikaeili</strong>, <a class='pub_href', href="https://orperel.github.io/">Or Perel</a>, <a class='pub_href', href="https://mehdi0xc.github.io/">Mehdi Safaee</a>, <a class='pub_href', href="https://danielcohenor.com/">Daniel Cohen-Or</a>, <a class='pub_href', href="https://www.sfu.ca/~amahdavi/">Ali Mahdavi-Amiri</a></p>
+            <p>
+              <a href="https://sked-paper.github.io/">Project page</a>,
+              <a href="https://arxiv.org/pdf/2303.10735">arXiv</a>,
+              <a href="">Code (Coming soon)</a>
+            </p>
+          </div>
+        </div>
 
-        <li class="navbar-right"><a href=#hobbies>hobbies</a></li>
-          <li class="navbar-right"><a href=#ta>Teaching</a></li>
-               <li class="navbar-right"><a href=#courses-and-projects>Courses and Projects</a></li>
-          <li class="navbar-right"><a href=#research>Research</a></li>
-           <li class="navbar-right"><a href=#bio>About me</a></li>
+        <h1>Experiences</h1>
+        <div class="publication-item">
+          <div class="image-container">
+            <a href="https://monstersaliensrobotszombies.com/">
+              <img src="../img/marz.jpeg" alt="Company Name" class="experience-image" />
+            </a>
+          </div>
+          <div class="publication-content">
+            <p><strong>ML research intern</strong></p>
+            <p><strong>Monsters, Aliens, Robots, Zombies</strong>, May 2022 - September 2022</p>
+            <p>Research in using machine learning and modern computer vision pipelines for vfx</p>
+          </div>
+        </div>
 
+        <h1>Teaching</h1>
+        <div style="margin-bottom: 50%">
+          <div class="teaching-content">
+            <p><strong>Practices in visual computing 1 (CMPT 742)</strong>: Fall 2021, Fall 2022</p>
+            <p>Course website: <a href="https://arash-mham.github.io/visual-computing-I/">link</a></p>
+          </div>
+          <div class="teaching-content">
+            <p><strong>Practices in visual computing 2 (CMPT 743)</strong>: Spring 2022, Spring 2023</p>
+            <p>Course website: <a href="https://arash-mham.github.io/visual-computing-II/">link</a></p>
+          </div>
 
-
-    </ul>
-    </nav>
-
-  </header>
-  <div id = "home">
-  </div>
-  <div id = "first-section">
-    <div id = "iconscontainer">
-
-      <ul>
-        <li><a target="_blank" href="http://github.com/aryanmikaeili/"><img src="img/github.svg"  class="icon"/></a></li>
-        <li><a target="_blank" href="files/cv_AryanMikaeili2.pdf"><img src="img/C2V.png" alt="resume" class="icon"/></a></li>
-
-
-      </ul>
-
-      <center style="font-size : 90%;">(last update: 8 December 2020)</center>
-      <center><a href="mailto:ar.mikaeili@yahoo.com" style="font-size : 14px;">ar.mikaeili@yahoo.com</a></center>
-      <center><a href="mailto:armikaeili@ce.sharif.edu" style="font-size : 14px;">armikaeili@ce.sharif.edu</a></center>
+        </div>
 
     </div>
-
-    <div id="bio">
-    <h1> About me </h1>
-    <p>
-      <img src="img/Aryan2.png" width="300" height="300" style="margin-left: 30px; float:right; margin-top: 8%; margin-bottom: 10px; border-radius: 50%;" />
-        Hi. My name is Aryan Mikaeili and I am currently a Computer Engineering undergraduate student at <a href="http://www.en.sharif.edu/">Sharif University of Technology</a>.
-      <br />
-
-      I am mainly interested in 3D computer vision, trustworthy machine learning, geometric deep learning, and graph learning. But, I am also interested in other topics in computer vision and machine learning such as generative models, human pose estimation, image segmentation and etc.
-      <br />
-    </p>
-    </div>
-  </div>
-  <div id = "research">
-    <div id = "research-text">
-      <h1>Research experience</h1>
-      <p>
-          <a href="http://ipl.ce.sharif.edu/" class="lablink"><span class="title">Image processing lab (IPL)</span></a>
-          <span class="date">June 2020 - Present</span>
-
-        <h4>Research Assistant Under Supervision of <a href="http://sharif.edu/~kasaei/" target="_blank">Prof. Shohreh Kasaei</a></h4>
-
-
-  </tr></table>
-      <ul class="innerlist">
-    <li><div class="research_details">
-       Working on adversarial attacks on deep 3D point cloud models.
-    </div></li>
-    <li><div class="research_details">
-        Working on interpretability of deep 3D point cloud models.
-    </div></li>
-  </ul>
-      </p>
- <p>
-     <a href="http://bcb.ictic.sharif.edu/" class="lablink"><span class="title">Bioinformatics and Computational biology lab (BCB)</span></a>
-          <span class="date">January 2019 - April 2019</span>
-
-        <h4>Research Assistant Under Supervision of <a href="http://sharif.edu/~rohban/" target="_blank">Prof. Mohammad Hossein Rohban</a></h4>
-
-
-      <ul class="innerlist">
-    <li><div class="research_details">
-       Working on batch effect removal on single cell image data.
-    </div></li>
-  </ul>
-      </p>
-
-      <h1 id="courses-and-projects">Courses and projects</h1>
-      <p>
-        <span class="title">Courses</span>
-      <p>These are some of the most instructive and enjoyable courses I took in my undergraduate studies.</p>
-      <ul class="courselist">
-      <li class="courselist">Advanced 3D computer vision (graduate course, ongoing)
-         <ul style="list-style: none;">
-          <li><div class="details">
-              This course covers many topics from computer vision such as single and multiple view geometry, 3D reconstruction, object tracking and etc. You can find my solutions and codes for the course assignments in <a href="https://github.com/aryanmikaeili/adv-3D-computer-vision" style="font-weight: bold;">this</a> repository.
-          </div>
-          </li>
-      </ul>
-      </li>
-      <li class="courselist">Machine learning for Bioinformatics (graduate course)
-
-         <ul style="list-style: none;">
-          <li><div class="details">
-                  In this course I learned many concepts of machine learning from the fundamental ones to the most sophisticated ones. I also learned how to use machine learning
-            to solve various problems in bioinformatics. you can find my solutions and codes for the course assignments and projects in <a href="https://github.com/aryanmikaeili/ML_BIO" style="font-weight: bold;">this</a> repository.
-          </div>
-          </li>
-      </ul>
-      </li>
-        <li class="courselist">Digital image processing (graduate course)
-
-         <ul style="list-style: none;">
-          <li><div class="details">
-                  In this course I learned many topics such as sampling techniques, image transformations, image enhancement and restoration, edge detection, image analysis and etc. you can find my solutions and codes for the course assignments and projects in <a href="https://github.com/aryanmikaeili/digital-image-processing" style="font-weight: bold;">this</a> repository.
-          </div>
-          </li>
-      </ul>
-      </li>
-      <li class="courselist">Artificial intelligence
-
-         <ul style="list-style: none;">
-          <li><div class="details">
-              This course was an introduction to AI concepts. In this course I learned how to design intelligent agents using techniques such as state-space searching, knowledge representation, inference, and machine learning.
-          </div>
-          </li>
-      </ul>
-      </li>
-       <li class="courselist">Statistics and its applications
-
-         <ul style="list-style: none;">
-          <li><div class="details">
-             This course covered topics such as hypothesis testing, estimation techniques and etc.
-          </div>
-          </li>
-      </ul>
-      </li>
-    </ul>
-
-       <span class="title">Projects and Papers</span>
-      <p>Some of my course projects and papers I have implemented.</p>
-      <ul class="paperlist">
-      <li class="paperlist">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation [<a href="https://github.com/aryanmikaeili/Pointnet">my code</a>][<a href="https://arxiv.org/abs/1612.00593">arxiv</a>]
-      </li>
-      <li class="paperlist">DeepFool: a simple and accurate method to fool deep neural networks [<a href="https://github.com/aryanmikaeili/attacks">my code</a>][<a href="https://arxiv.org/abs/1511.04599">arxiv</a>]
-      </li>
-        <li class="paperlist">Towards Evaluating the Robustness of Neural Networks[<a href="https://github.com/aryanmikaeili/attacks">my code</a>][<a href="https://arxiv.org/abs/1608.04644">arxiv</a>]
-      </li>
-      <li class="paperlist">Axiomatic Attribution for Deep Networks [<a href="https://github.com/aryanmikaeili/Integrated-Gradients">my code</a>][<a href="https://arxiv.org/abs/1703.01365">arxiv</a>]
-
-      </li>
-        <li class="paperlist">Deep Residual Learning for Image Recognition [<a href="https://github.com/aryanmikaeili/ML_BIO/tree/master/HW5_resnet_mlp">my code</a>][<a href="https://arxiv.org/abs/1512.03385">arxiv</a>]
-
-      </li>
-          <li class="paperlist">Auto-Encoding Variational Bayes [<a href="https://github.com/aryanmikaeili/ML_BIO/tree/master/HW6_vae_rnn">my code</a>][<a href="https://arxiv.org/abs/1312.6114">arxiv</a>]
-
-      </li>
-      <li class="paperlist">Surface Reconstruction from Unorganized Points (Just the normal estimator) [<a href="https://github.com/aryanmikaeili/ML_BIO/tree/master/HW6_vae_rnn">my code</a>][<a href="http://hhoppe.com/recon.pdf">arxiv</a>]
-
-      </li>
-       <li class="paperlist">The machine learning for bioinformatics course project [<a href="https://github.com/aryanmikaeili/ML_BIO/tree/master/project_phase2_deepdta%2Brnn">my code</a>]
-             <ul style="list-style: none;">
-          <li><div class="details">
-              This project was about drug-target binding prediction. One of the methods used in solving this problem is the <a href="https://arxiv.org/abs/1801.10193">DeepDTA</a> model. which extracts features from drug and target molecular structures using a two-branch CNN network. However, this model doesn't take the sequential nature of target amino-acid structures into account. In this project, in addition to implementing some of the previous methods in the drug-target binding problem, I designed a model which uses an RNN network to extract sequential features of amino-acids. Eventually, These features, are augmented with the features extracted from the two-branch CNN network and used to predict the binding value of a drug-target pair.
-          </div>
-          </li>
-      </ul>
-      </li>
-
-
-    </ul>
-
-         <h1 id="ta">Teaching experience</h1>
-        <p>I have been teacher assistant in the following courses.</p>
-          <ul class="innerlist">
-    <li><div class="teaching">
-        CE712: Machine learning (graduate Course) - Fall 2020 [<a href="https://github.com/aryanmikaeili/ML_fall_2020/tree/master">content</a>]
-    </div></li>
-    <li><div class="teaching">
-        CE424: Operating systems - Fall 2020
-    </div></li>
-        <li><div class="teaching">
-        CE221: Scientific and technical presentation - Fall 2020
-    <li><div class="teaching">
-        CE323: Computer Architecture- Spring 2020
-    </div></li>
-    <li><div class="teaching">
-        CE354: Algorithm Design - Spring 2020
-    </div></li>
-    <li><div class="teaching">
-        CE384: Database Design - Spring 2020
-    </div></li>
-     <li><div class="teaching">
-        CE126: Computer structure and language - Fall 2019
-    </div></li>
-    <li><div class="teaching">
-        CE494: Introduction to Bioinformatics - Fall 2019
-    </div></li>
-    <li><div class="teaching">
-        CE417: Artificial Intelligence - Spring 2019 [<a href="https://github.com/aryanmikaeili/AI_content_spring_2019">content</a>]
-    </div></li>
-      <li><div class="teaching">
-         CE126: Computer structure and language - Fall 2018
-    </div></li>
-  </ul>
-
-      </p>
-
-    <!--<h2> Publications </h2>
-    <br />-->
-    <!--<h2> Preprints </h2>-->
-
-
-    </div>
-  </div>
-
-
-  <div id = "hobbies">
-    <div id = "hobbies-text">
-    <h1> Activities and Hobbies </h1>
-      I'm a classical pianist. I have played the piano for almost 13 years. Over the years I have played a vast repertoire from J.S Bach to D.D Shostakovich. In 2018 I was among the finalsts of the National Javan music festival and National Barbad music festival. Also I was ranked first and second in the Competition for Tehran's cultural centers in 2010 an 2009 respectively.
-      Additionaly I have been fortunate to benefit from masterclasses of celebrated pianists such as Dilbar Hakimova from Moscow conservatory and Tamara Dolidze from Tbilisi state conservatory. I'm currently practicing <a href="https://www.youtube.com/watch?v=ghTitIMtTCM">Italian concerto in F major</a> by Bach.
-      <br />
-      <br />
-           I also enjoy playing chess and soccer. If you are up for a game of chess, send me a challenge in <a href="https://www.chess.com/home">chess.com</a>:) my account is AryanMikaeili.
-      <br />
-       <br />
-       <br />
-       <br />
-       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-    </div>
-
-
-
-  </div>
+    <script src="javascripts/scale.fix.js"></script>
   </body>
 </html>
