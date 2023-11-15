@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Redirect</title>
+  <script type="text/javascript">
+    function randomRedirect() {
+      var links = ['https://forms.gle/QS2tEJwpq2MCEX7R9', 'https://forms.gle/fXRwVgjwsxK2JMrs5'];
+      var randomLink = links[Math.floor(Math.random() * links.length)];
+      window.location.href = randomLink;
+    }
+  </script>
+</head>
+<body onload="randomRedirect()">
+<p>Redirecting...</p>
+</body>
+</html>
